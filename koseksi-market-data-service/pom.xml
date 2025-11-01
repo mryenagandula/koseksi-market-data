@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.koseksi.myactivities</groupId>
+    <artifactId>koseksi-market-data</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>koseksi-market-data-service</artifactId>
+  <name>Koseksi Market Data Service</name>
+  <description>All servie logic will be here</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.koseksi.myactivities</groupId>
+  		<artifactId>koseksi-market-data-repository</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.koseksi.myactivities</groupId>
+  		<artifactId>koseksi-market-data-dto</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.koseksi.myactivities</groupId>
+  		<artifactId>koseksi-market-data-do</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.modelmapper</groupId>
+  		<artifactId>modelmapper</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.projectlombok</groupId>
+  		<artifactId>lombok</artifactId>
+  	</dependency>
+  </dependencies>
+</project>

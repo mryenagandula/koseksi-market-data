@@ -1,0 +1,72 @@
+# Maven build artifacts
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.factorypath
+
+# Logs
+*.log
+
+# IDE settings
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.sw?
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Generated sources (e.g., QueryDSL)
+**/target/generated-sources/
+**/target/generated-test-sources/
+
+# Spring Boot devtools
+spring-boot-devtools.jar
+
+# Environment files
+.env
+*.env.local
+*.env.*
+
+# Test reports
+surefire-reports/
+test-output/
+
+# Build tools
+.mvn/
+mvnw
+mvnw.cmd
+
+
+# Node/npm (if frontend is included)
+node_modules/
+dist/
+build/
+
+# Docker
+*.log
+*.pid
+*.seed
+*.db
+*.sqlite
+*.sqlite3
+docker-compose.override.yml
+
+# IntelliJ cache
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+*.swo

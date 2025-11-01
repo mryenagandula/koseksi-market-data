@@ -1,0 +1,77 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- 
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.1.2</version>
+    <relativePath/>
+  </parent>
+   -->
+  <parent>
+	<groupId>com.koseksi</groupId>
+	<artifactId>koseksi-parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<relativePath/>
+  </parent>
+  
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.koseksi.myactivities</groupId>
+  <artifactId>koseksi-market-data</artifactId>
+  <!-- <version>0.0.1-SNAPSHOT</version>-->
+  <name>Koseksi Market Data</name>
+  <packaging>pom</packaging>
+  <description>All market related information will be stored here incl gold silver</description>
+  <properties>
+    <java.version>17</java.version>
+  </properties>
+  
+  <modules>
+  	<module>koseksi-market-data-service</module>
+  	<module>koseksi-market-data-repository</module>
+  	<module>koseksi-market-data-do</module>
+  	<module>koseksi-market-data-dto</module>
+  	<module>koseksi-market-data-coverage</module>
+  	<module>koseksi-market-data-client-api</module>
+  	<module>koseksi-market-data-web</module>
+  </modules>
+  
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>com.koseksi.myactivities</groupId>
+  			<artifactId>koseksi-market-data-web</artifactId>
+  			<version>${project.version}</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.koseksi.myactivities</groupId>
+  			<artifactId>koseksi-market-data-service</artifactId>
+  			<version>${project.version}</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.koseksi.myactivities</groupId>
+  			<artifactId>koseksi-market-data-repository</artifactId>
+  			<version>${project.version}</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.koseksi.myactivities</groupId>
+  			<artifactId>koseksi-market-data-do</artifactId>
+  			<version>${project.version}</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.koseksi.myactivities</groupId>
+  			<artifactId>koseksi-market-data-dto</artifactId>
+  			<version>${project.version}</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.koseksi.myactivities</groupId>
+  			<artifactId>koseksi-market-data-coverage</artifactId>
+  			<version>${project.version}</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.koseksi.myactivities</groupId>
+  			<artifactId>koseksi-market-data-client-api</artifactId>
+  			<version>${project.version}</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
+</project>
