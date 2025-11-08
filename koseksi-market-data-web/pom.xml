@@ -20,18 +20,6 @@
   	</dependency>
   	<dependency>
   		<groupId>com.koseksi.myactivities</groupId>
-  		<artifactId>koseksi-market-data-dto</artifactId>
-  	</dependency>
-  	  	<dependency>
-  		<groupId>com.koseksi.myactivities</groupId>
-  		<artifactId>koseksi-market-data-do</artifactId>
-  	</dependency>
-  	<dependency>
-  		<groupId>com.koseksi.myactivities</groupId>
-  		<artifactId>koseksi-market-data-repository</artifactId>
-  	</dependency>
-  	<dependency>
-  		<groupId>com.koseksi.myactivities</groupId>
   		<artifactId>koseksi-market-data-client-api</artifactId>
   		<scope>test</scope>
   	</dependency>
