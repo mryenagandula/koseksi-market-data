@@ -36,8 +36,8 @@ test-output/
 
 # Build tools
 .mvn/
-# mvnw
-# mvnw.cmd
+mvnw
+mvnw.cmd
 
 
 # Node/npm (if frontend is included)
